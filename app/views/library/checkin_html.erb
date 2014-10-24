@@ -1,0 +1,9 @@
+<h1>library CheckIn's</h1>
+
+
+
+<h2>Have a book to checkin?<h2>
+  <% @checkouts.each do |checkout| %>
+  <%= checkout.title "Checked out by" patron.name %>
+  <% end %>
+  <%= link_to "Checkin", checkin_path(checkout_id: checkout.id) %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patron_id: MyString
+  book_id: MyString
+  checkin_date: MyString
+  checkout_date: MyString
+
+two:
+  patron_id: MyString
+  book_id: MyString
+  checkin_date: MyString
+  checkout_date: MyString
